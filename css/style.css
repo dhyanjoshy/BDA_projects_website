@@ -95,6 +95,11 @@ p{
     padding: 1vw 3vw;
     border-radius: 1vw;
     height: 3vw;
+    transition: .2s ease-in-out;
+}
+.anc:hover{
+    background-color: var(--primary);
+    color: var(--secondary);
 }
 .link{
     display: flex;
